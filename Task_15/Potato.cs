@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 class Potato : Product
 {
-    public double Count { get; private set; } // Кількість кілограмів
-    public override double Price => BasePrice * Count; // Ціна = базова ціна * кілограми
+    public double Count { get; private set; } 
+    public override double Price => BasePrice * Count; 
 
     public Potato(double basePrice, double count) : base(name: "Potato", basePrice)
     {
